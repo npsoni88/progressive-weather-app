@@ -25,4 +25,4 @@ jobs:
         env:
           KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}
         with:
-          args: kubectl apply -f kubernetes-resources/deployment.yaml
+          args: apply -f kubernetes-resources/deployment.yaml
