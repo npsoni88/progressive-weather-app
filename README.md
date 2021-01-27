@@ -34,4 +34,5 @@ I thought of using Jenkins as first as I've used it for first. However, I've bee
 # What could be improved?
 1. I am currently using an opensource docker image with kubectl to deploy to EKS. I could build my own and optimize it further for faster build times
 2. The application is currently deployed as a single docker image. I could potentially host the static assets on an external source such as AWS S3.
+3. There is no auto-scaling in place here, I could potentially set one up but may be that's for another day.
  
