@@ -26,7 +26,7 @@ I thought of using Jenkins as first as I've used it for first. However, I've bee
 5. Pushed the changes to EKS
 
 # Output
-1. You can find the application at - ae5ad7007d18d43ad9a3354cfed03081-1357377340.us-east-2.elb.amazonaws.com
+1. You can find the application at - http://ae5ad7007d18d43ad9a3354cfed03081-1357377340.us-east-2.elb.amazonaws.com/
 2. I can give you access to the bastion box where all of this is setup, but its all in the git repo anyway.
 3. You can find the screenshot of the CI CD pipeline here -> https://i.imgur.com/K7QSMQj.png
 4. Github actions code for the ci/cd pipeline can be found in .github/workflow/main.yaml of the same repository 
@@ -35,4 +35,4 @@ I thought of using Jenkins as first as I've used it for first. However, I've bee
 1. I am currently using an opensource docker image with kubectl to deploy to EKS. I could build my own and optimize it further for faster build times
 2. The application is currently deployed as a single docker image. I could potentially host the static assets on an external source such as AWS S3.
 3. There is no auto-scaling in place here, I could potentially set one up but may be that's for another day.
- 
+4. Add an SSL cert ofcourse 
